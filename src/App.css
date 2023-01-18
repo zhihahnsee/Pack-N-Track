@@ -79,6 +79,7 @@ nav .social-links li {
 .pre-search-text h1 {
   font-size: 45px;
   background-image: linear-gradient(45deg, #7CE8FF, #55D0FF);
+  background-clip: text;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
