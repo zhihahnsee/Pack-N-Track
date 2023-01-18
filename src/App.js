@@ -19,6 +19,15 @@ function App() {
           <li><a href = "https://www.linkedin.com/in/zhi-hahn-see/"><img className = "linkedin" src = {linkedin} alt = "LinkedIn"></img></a></li>
         </ul>
       </nav>
+      <div className = "search-outer-rectangle"></div>
+      <div className = "pre-search-text">
+        <h1>Track your packages!</h1>
+        <p>Quick and easy package tracking <br/> By Pack N Track</p>
+      </div>
+      <div className = "tracking-number-input">
+        <input type = "text" name = "tracking-number" placeholder = "Input your tracking number..." />
+        <button type = "button">Go!</button>
+      </div>
     </div>
   );
 }

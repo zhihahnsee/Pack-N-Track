@@ -1,5 +1,7 @@
 .homepage {
   background-color: #84DCCF;
+  margin: 0px;
+  height: 100vh;
 }
 
 nav {
@@ -52,4 +54,57 @@ nav li img {
 
 nav .social-links li {
   margin: 0 0.5rem;
+}
+
+.search-outer-rectangle {
+  position: absolute;
+  width: 1000px;
+  height: 500px;
+  background: #F6E8EA;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50px;
+}
+
+.pre-search-text {
+  position: absolute;
+  top: 32%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Nutino', sans-serif;
+}
+
+.pre-search-text h1 {
+  font-size: 45px;
+  background-image: linear-gradient(45deg, #7CE8FF, #55D0FF);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.pre-search-text p {
+  color: #312F2F;
+}
+
+input[type=text] {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-70%, -50%);
+  width: 30%;
+  height: 5%;
+  border-radius: 10px;
+}
+
+.tracking-number-input button{
+  position: absolute;
+  top: 50%;
+  left: 62.5%;
+  transform: translate(-50%, -50%);
+  height: 6%;
+  width: 6%;
+  border-radius: 10px;
+  background-color: #EF626C;
 }
