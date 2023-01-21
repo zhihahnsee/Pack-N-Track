@@ -38,6 +38,16 @@ const About = () => {
           </li>
         </ul>
       </nav>
+      <div className = "aboutBox">
+        <h1>About Pack N Track</h1>
+        <p className = "aboutText">Pack N Track is a service dedicated to making sure consumers have easy access to locating their packages. Through the use of APIs and our database with MongoDB, users are able 
+          to easily locate their packages and are notified of any updates on their shipments. Our goal is to make tracking packages easy, organized, and hands-free. 
+          Some of the many carriers that we provide tracking for are UPS, USPS, FedEx, and DHL. We thank you for using our service and hope you come back soon!
+        </p>
+        <p className = "feedback">
+          If you have any feedback on how we can improve, complete this survey!
+        </p>
+      </div>
     </div>
   );
 };

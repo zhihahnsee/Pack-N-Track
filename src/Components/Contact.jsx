@@ -2,6 +2,7 @@ import React from "react";
 import logo from '../images/logo.png';
 import linkedin from '../images/linkedin.png';
 import github from '../images/github.png';
+import headshot from '../images/headshot.png';
 import { Link } from "react-router-dom";
 
 const Contact = () => {
@@ -38,6 +39,18 @@ const Contact = () => {
           </li>
         </ul>
       </nav>
+      <div className = "contactBox">
+        <img className = "headshot" src = {headshot} alt = "Headshot"></img>
+        <div>
+          <h1>Zhi-Hahn See</h1>
+          <p>Hello! My name is Zhi-Hahn See and I'm a freshman studying Computer Engineering at UC Davis. 
+          One of my many goals is to become more comfortable creating larger scale projects, like this one!
+          Right now I'm learning the ins and outs of React.js and hope to implement MongoDB and other technologies 
+          into this project! I hope you enjoy using this package tracker and feel free to contact me through the hyperlinks 
+          in the top right corner!
+          </p>
+        </div>
+      </div>
     </div>
   );
 };
